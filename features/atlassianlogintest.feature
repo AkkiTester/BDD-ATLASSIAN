@@ -7,8 +7,7 @@ Feature: Atlassian Login Test Check Eamil Valdidation
     Then verify email valid for login
 
     Examples:
-      | email                  |
-      | akashdilwale@gmail.com |
-      | akash@gmail.com        |
-      | akas@bd.com            |
-      | dilwale@t.com          |
+      | email                    |
+      | akashdilwaleit@gmail.com |
+      | akas@SSSSS.com           |
+      | akash                    |

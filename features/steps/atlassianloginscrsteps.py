@@ -12,8 +12,8 @@ def openLoginScr(context):
 
 @then('verify that the logo present on page')
 def verifyLogo(context):
-    status= context.driver.find_element(By.XPATH,"//span[@class='css-a3l9jr']//*[name()='svg']")
-
+    status= context.driver.find_element(By.XPATH,"//span[@class='css-a3l9jr']//*[name()='svg']").is_displayed()
+    assert status is True
 @then('close browser')
 def closeBrowser(context):
     context.driver.close()
